@@ -1,0 +1,55 @@
+/*左边自适应，右边固定（圣杯布局）*/
+.header{
+    overflow: hidden;
+    margin: 5px;
+    border: 1px solid #000;
+    height: 70px;
+}
+.main{
+    margin: 5px;
+    overflow: hidden;
+}
+.footer{
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #000;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 10px;
+    border: 1px solid #000;
+}
+.username{
+    border: 1px solid #000;
+    float: right;
+    width: 140px;
+    height: 20px;
+    margin-top: 40px;
+    margin-right: 10px;
+    text-align: right;
+}
+.column{
+    border: 1px solid #000;
+}
+.left{
+    float: left;
+    width: 100%;
+     
+}
+.right{
+    float: left;
+    width: 200px;
+    margin-left: -204px;
+}
+.real{
+    margin-right: 210px;
+    border: 1px solid blue;
+    height: 300px;
+}
+
+/* 左边固定，右边自适应（圣杯布局）*/
+.wrap{ width:100%; float:left} 
+.content{ height:300px;background:green; margin-left:200px} 
+.right2{ width:200px; height:300px; background:red; float:left; margin-left:-100%} 
